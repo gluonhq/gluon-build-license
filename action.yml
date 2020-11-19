@@ -1,0 +1,10 @@
+name: 'Gluon Build License'
+description: 'Action to configure your Gluon license.'
+inputs:
+  gluon-license:
+    required: true
+runs:
+  using: "composite"
+  steps: 
+    - run: printf "${{ inputs.gluon-license }}" > src/main/resources/gluonmobile.license
+      shell: bash
