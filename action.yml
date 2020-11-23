@@ -1,5 +1,8 @@
 name: 'Gluon Build License'
 description: 'Action to configure your Gluon license.'
+branding:
+  icon: check-square
+  color: blue
 inputs:
   gluon-license:
     required: true
