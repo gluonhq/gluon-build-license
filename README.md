@@ -2,7 +2,7 @@
 
 This action configures the license for your Gluon build
 
-Have a look at the [Hello Gluon CI](https://github.com/gluonhq/hello-gluon-ci) for a sample.
+Have a look at [Hello Gluon CI](https://github.com/gluonhq/hello-gluon-ci) for a sample.
 
 # Usage
 
