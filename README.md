@@ -2,6 +2,8 @@
 
 This action configures the license for your Gluon build
 
+Have a look at the [Hello Gluon CI](https://github.com/gluonhq/hello-gluon-ci) for a sample.
+
 # Usage
 
 * Add this before your Maven build step
@@ -16,9 +18,3 @@ steps:
 ```
 
 * Configure GLUON_LICENSE in your repo secrets
-
-
-# License
-
-The project is licensed under GPL 3. See LICENSE file for the full license.
-
