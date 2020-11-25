@@ -14,7 +14,6 @@ steps:
     uses: gluonhq/gluon-build-license@v1
     with:
       gluon-license: ${{ secrets.GLUON_LICENSE }} 
-      target: 'ios'
 ```
 
 * Configure GLUON_LICENSE in your repo secrets
