@@ -6,6 +6,10 @@ branding:
 inputs:
   gluon-license:
     required: true
+    description: License provided by Gluon
+  dir:
+    required: false
+    description: Directory path to Gluon Application
 runs:
   using: "composite"
   steps: 
