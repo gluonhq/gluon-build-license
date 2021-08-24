@@ -9,5 +9,5 @@ inputs:
 runs:
   using: "composite"
   steps: 
-    - run: printf "${{ inputs.gluon-license }}" > src/main/resources/gluonmobile.license
+    - run: printf "${{ inputs.gluon-license }}" > "${{ inputs.dir }}"/src/main/resources/gluonmobile.license
       shell: bash
