@@ -9,7 +9,7 @@ inputs:
     description: License provided by Gluon
   dir:
     required: false
-    description: Directory path to Gluon Application
+    description: Directory path to Gluon Application. Useful in multi-module project setup.
 runs:
   using: "composite"
   steps: 
