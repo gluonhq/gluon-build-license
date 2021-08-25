@@ -7,11 +7,11 @@ inputs:
   gluon-license:
     required: true
     description: License provided by Gluon
-  dir:
+  project-dir:
     required: false
     description: Directory path to Gluon Application. Useful in multi-module project setup.
 runs:
   using: "composite"
   steps: 
-    - run: printf "${{ inputs.gluon-license }}" > "${{ inputs.dir }}"/src/main/resources/gluonmobile.license
+    - run: printf "${{ inputs.gluon-license }}" > "${{ inputs.project-dir }}"/src/main/resources/gluonmobile.license
       shell: bash
