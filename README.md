@@ -17,7 +17,7 @@ steps:
 ```
 
 In case, you have a multi-module setup, with `main-module` containing Gluon Application,
-`project-dir` can be specified:
+`dir` can be specified:
 
 ```yaml
 steps:
@@ -25,7 +25,7 @@ steps:
     uses: gluonhq/gluon-build-license@v1
     with:
       gluon-license: ${{ secrets.GLUON_LICENSE }}
-      project-dir: main-module
+      dir: main-module
 ```
 
 * Configure GLUON_LICENSE in your repo secrets
