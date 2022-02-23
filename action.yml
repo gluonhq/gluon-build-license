@@ -10,6 +10,7 @@ inputs:
   dir:
     required: false
     description: Directory path to Gluon Application. Useful in multi-module project setup.
+    default: '.'
 runs:
   using: "composite"
   steps: 
